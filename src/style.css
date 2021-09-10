@@ -1,0 +1,72 @@
+.circle.main {
+  transform: translate(120%, 40%);
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient(to left, white, rgb(202, 199, 199));
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: -50px 50px 100px rgb(138, 136, 136);
+}
+
+.circle1.main {
+  margin: 5%;
+  height: 90%;
+  width: 90%;
+  background-image: linear-gradient(to right, white, rgb(219, 214, 214));
+  border-radius: 200%;
+  display: inline-block;
+}
+
+/* .circle.sub {
+  /* margin: 20px;
+  margin-top: 150px; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* margin-left: -5px;
+  margin-top: -5px; */
+  height: 220px;
+  width: 220px;
+  background-image: linear-gradient(to left, white, rgb(211, 206, 206));
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: -50px 20px 50px rgb(138, 136, 136);
+} */
+
+.sub1 {
+  transform: rotate(0deg) translate(100px);
+}
+.sub2 {
+  transform: rotate(90deg) translate(100px);
+}
+.sub3 {
+  transform: rotate(180deg) translate(100px);
+}
+.sub4 {
+  transform: rotate(270deg) translate(100px);
+}
+.sub5 {
+  transform: rotate(360deg) translate(100px);
+}
+
+/* .circle1.sub {
+  margin: 5%;
+  height: 90%;
+  width: 90%;
+  background-image: linear-gradient(to right, white, rgb(219, 214, 214));
+  border-radius: 200%;
+  display: inline-block;
+} */
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(222, 235, 243),
+    white,
+    rgb(222, 235, 243)
+  );
+}
+
+/* .rotate {
+  display: inline-block;
+} */
